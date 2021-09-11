@@ -1,0 +1,18 @@
+.l_Title{
+    background-color: rgb(34, 236, 236);
+    color: white;
+    font-size: 18px;
+    margin: 20px auto 0 auto;
+    /* text-align: center; */
+}
+.l_inputarea{
+    margin-top: 30px;
+    text-align: center;
+}
+.l_btnArea{
+    margin-top: 20px;
+    text-align: center;
+}
+.m_top20{
+    margin-top: 20px;
+}

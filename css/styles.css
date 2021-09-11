@@ -1,0 +1,132 @@
+/*******************
+ *共通系
+ ********************/
+/* 左右中央寄せ */
+.container{position: relative;width: 100%;height: 100%;}/*親要素*/
+.container .center{position: absolute;left: 50%;transform: translateX(-50%);}/*中央寄せ要素*/
+.txt_center {text-align: center;}
+
+.inline-bl{display: inline-block;}
+
+/* マージン */
+.m_t10{margin-top: 10px;}
+.m_b0{margin-bottom: 0px;}
+.m_b10{margin-bottom: 10px;}
+.m_b50{margin-bottom: 50px;}
+.m_l30{margin-left: 30px;}
+.m_l60{margin-left: 60px;}
+
+/* テーブル */
+table.b1 {
+    border-collapse: collapse;
+}
+table.b1,th.b1,td.b1 {
+    border: 1px solid #000;
+}
+
+/* 横幅 */
+.w_10  {width: 10px;}
+.w_20  {width: 20px;}
+.w_30  {width: 30px;}
+.w_40  {width: 40px;}
+.w_50  {width: 50px;}
+.w_60  {width: 60px;}
+.w_70  {width: 70px;}
+.w_80  {width: 80px;}
+.w_90  {width: 90px;}
+.w_100 {width: 100px;}
+.w_110 {width: 110px;}
+.w_120 {width: 120px;}
+.w_130 {width: 130px;}
+.w_140 {width: 140px;}
+.w_150 {width: 150px;}
+.w_160 {width: 160px;}
+.w_170 {width: 170px;}
+.w_180 {width: 180px;}
+.w_190 {width: 190px;}
+.w_200 {width: 200px;}
+.w_210 {width: 210px;}
+.w_220 {width: 220px;}
+.w_230 {width: 230px;}
+.w_240 {width: 240px;}
+.w_250 {width: 250px;}
+.w_300 {width: 300px;}
+.w_350 {width: 350px;}
+.w_400 {width: 400px;}
+.w_450 {width: 450px;}
+.w_500 {width: 500px;}
+.w_550 {width: 550px;}
+.w_600 {width: 600px;}
+.w_700 {width: 700px;}
+
+/* 縦幅 */
+.h_10  {height: 10px;}
+.h_20  {height: 20px;}
+.h_25  {height: 25px;}
+.h_30  {height: 30px;}
+.h_40  {height: 40px;}
+.h_50  {height: 50px;}
+.h_60  {height: 60px;}
+.h_70  {height: 70px;}
+.h_80  {height: 80px;}
+.h_90  {height: 90px;}
+.h_100 {height: 100px;}
+.h_110 {height: 110px;}
+.h_120 {height: 120px;}
+.h_130 {height: 130px;}
+.h_140 {height: 140px;}
+.h_150 {height: 150px;}
+.h_160 {height: 160px;}
+.h_170 {height: 170px;}
+.h_180 {height: 180px;}
+.h_190 {height: 190px;}
+.h_200 {height: 200px;}
+.h_210 {height: 210px;}
+.h_220 {height: 220px;}
+.h_230 {height: 230px;}
+.h_240 {height: 240px;}
+.h_250 {height: 250px;}
+.h_300 {height: 300px;}
+.h_350 {height: 350px;}
+.h_400 {height: 400px;}
+.h_450 {height: 450px;}
+.h_500 {height: 500px;}
+.h_550 {height: 550px;}
+.h_600 {height: 600px;}
+.h_700 {height: 700px;}
+.h_900{height: 600px;}
+
+/* 横並び */
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+
+/* 中央寄せ */
+.m_auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 文字色 */
+.txt_danger{color: red;}
+.txt_white{color: white;}
+
+/* 背景色 */
+.bg_red{
+    background-color: rgb(255, 0, 0);
+}
+.bg_white{
+    background-color: rgb(255, 255, 255);
+}
+.bg_water{
+    background-color: rgb(130, 255, 249);
+}
+.bg_yellow{
+    background-color: rgb(250, 236, 42);
+}
+.bg_greenYellow{
+    background-color: rgb(38, 252, 127);
+}

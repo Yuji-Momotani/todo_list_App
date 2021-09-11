@@ -1,0 +1,40 @@
+ul button{
+    margin-left: 20px;
+}
+.complete{
+    text-decoration: line-through;
+    color: aqua;
+}
+.timeOver{
+    color: red;
+    text-decoration: line-through;
+}
+.li_el{
+    margin-bottom: 10px;
+}
+
+ul{
+    padding: 0;
+    list-style: none;   
+}
+
+.frm_style{
+    margin: 30px auto;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.title{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+.in_todo{
+    margin:0 auto; 
+    text-align:center;
+}
+
+.m_t30{
+    margin-top: 30px;
+}
